@@ -1,0 +1,28 @@
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 2.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+.topRow {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+
+/* Интро не растягивается на всю ширину — статс остаётся рядом с текстом */
+.topRow > *:first-child {
+  flex: 0 1 auto;
+  max-width: 560px;
+}
+
+.topRow > *:last-child {
+  flex-shrink: 0;
+}
+

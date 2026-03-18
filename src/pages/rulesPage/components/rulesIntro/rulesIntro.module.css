@@ -1,0 +1,26 @@
+.rulesIntro {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.rulesIntroTitle {
+    font-size: 44px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.rulesCol {
+    color: #9508c4;
+}
+
+.rulesIntroText {
+    opacity: 0.6;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}

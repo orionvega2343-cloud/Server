@@ -1,0 +1,68 @@
+.rules {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 10rem;
+}
+
+.rulesContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.rulesMainTitle {
+    font-size: 34px;
+}
+
+.rulesMainTitleSpan {
+    color: #9508c4;
+}
+
+.rulesTitle {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    background-color: #3d255085;
+    padding: 1rem;
+    width: 800px;
+    margin-bottom: 0;
+}
+
+
+.rulesList {
+    width: 800px;
+    margin-top: 0;
+    background-color: #3d255085;
+    padding: 1rem;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    
+}
+
+.rulesItem {
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff;
+    text-wrap: wrap;
+    width: 100%;
+    padding: 0.5rem;
+   list-style: none;
+    
+    
+}
+
+.fadeIn {
+    animation: fadeIn 0.8s ease-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

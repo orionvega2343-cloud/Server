@@ -1,0 +1,58 @@
+.serverIntro {
+    flex: 0 1 auto;
+    max-width: 560px;
+    margin: 0;
+}
+
+.serverIntroContainer {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.serverIntroTitle {
+    font-size: 40px;
+    width: 800px;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-left: 3rem;
+}
+
+.serverIntroDescription {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 1rem;
+    opacity: 0.6;
+    width: 500px;
+    margin-left: 3rem;
+}
+
+/* Текстовый блок интро плавно появляется при загрузке */
+.serverIntroTitle,
+.serverIntroDescription {
+    opacity: 0;
+    transform: translateY(250px);
+    animation: introFadeIn 0.8s ease-out forwards;
+}
+
+
+
+@keyframes introFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+
