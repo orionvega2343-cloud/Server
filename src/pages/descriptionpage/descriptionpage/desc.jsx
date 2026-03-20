@@ -1,8 +1,8 @@
 import styles from './descc.module.css';
-import DonWarning from '../components/donWarning/donWarning';
+import DonWarning from '../components/donWarning/donWarning.jsx';
 import DonDesc from '../components/don-descpage/donDescIntro.jsx';
-import DonAnarchy from '../descAnarchy/donAnarchy';
-import DonGrief from '../components/descGrief/donGrief';
+import DonAnarchy from '../components/descAnarchy/donAnarchy.jsx';
+import DonGrief from '../components/descGrief/donGrief.jsx';
 import SelectMode from '/src/pages/homepage/components/SelectMode/Selectmode';
 import { useState } from 'react';
 

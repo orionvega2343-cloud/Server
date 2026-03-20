@@ -53,12 +53,13 @@ npm run preview
 
 ## Структура (кратко)
 
-- `src/pages/homepage/components/` — блоки главной страницы (интро, статистика, about, магазин)
-- `src/pages/rulesPage/components/` — страница правил + аккордионы
-- `src/components/ui/` — UI (модалки)
-- `src/assets/` — картинки (heads/case и т.д.)
+- `src/pages/homepage/components/` - блоки главной страницы (интро, статистика, about, магазин)
+- `src/pages/rulesPage/components/` - страница правил + аккордионы
+- `src/components/ui/` - UI (модалки)
+- `src/assets/` - картинки (heads/case и т.д.)
+- `src/descriptionpage/components` - страница описания доната + аккордионы
 
----
+--- 
 
 ## Обновление проекта на GitHub
 
