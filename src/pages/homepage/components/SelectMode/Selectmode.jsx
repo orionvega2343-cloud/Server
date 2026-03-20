@@ -1,7 +1,7 @@
 import styles from './Selectmode.module.css';
 import Donate from '../donate/donate';
 import { useState, useEffect, useRef } from 'react';
-function SelectMode({ showDonate = true, onModeSelected }) {
+function SelectMode({ showDonate = true, onModeSelected, onDonateSelected }) {
 
 
     //Анимация 

@@ -1,0 +1,18 @@
+.donDesc {
+    width: 600px;
+    max-width: 1200px;
+    margin: 3rem auto;
+}
+
+.donDescContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.donDescTitleSpan {
+    color: #9f14ea
+}

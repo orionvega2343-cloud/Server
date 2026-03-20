@@ -139,7 +139,6 @@ function Donate({ mode }) {
               { name: 'QUASAR', price: '99 ₽', img: head3 },
               { name: 'APEX', price: '149 ₽', img: headAlt10 },
               { name: 'RESONANT', price: '249 ₽', img: headAlt9 },
-              { name: 'SYNTHESIS', price: '449 ₽', img: headAlt16 },
               { name: 'PARAGON', price: '849 ₽', img: headAlt17 },
               { name: 'PARADIGM', price: '1499 ₽', img: headAlt18 },
               { name: 'KALEIDO', price: '2599 ₽', img: headAlt12 },
