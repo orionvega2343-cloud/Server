@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import Layout from './components/Layout/layout/layout'
 import HomePage from './pages/homepage/components/homepage/homepage'
 import RulesPage from './pages/rulesPage/components/rulespage/rulespage'
@@ -8,7 +8,7 @@ import './App.css'
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Layout>
         <Routes>
           <Route path='/' element={<HomePage />} />
@@ -18,7 +18,7 @@ function App() {
           <Route path='*' element={<div>404</div>} />
         </Routes>
       </Layout>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
