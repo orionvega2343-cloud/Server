@@ -29,7 +29,7 @@ export const rankImageByName = {
 };
 
 const mocks = [
-    { name: 'QHYPERQ', donate: 'VERMILION' },
+    { name: 'QHYPERQ', donate: 'VERMILION', password: '1234' },
     { name: 'PHARAON', donate: 'QUASAR' },
     { name: 'DODIK', donate: 'ZEPHYR' },
     { name: 'xxxYARIK120xxx', donate: 'PARADIGM' },

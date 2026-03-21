@@ -1,0 +1,35 @@
+.accountIntro {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.accountIntroContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.accountIntroNickName {
+    color: #9f14ea;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.accountIntroRank {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.accountIntroRankName {
+    color: #9f14ea;
+}
+
+.accountIntroRankImage {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    display: block;
+
+}

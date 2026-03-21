@@ -1,0 +1,130 @@
+.accountForm {
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 20px 24px 30px;
+}
+
+.accountFormContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+}
+
+.accountFormTitle {
+    font-size: 28px;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0 0 8px;
+}
+
+.accountFormItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.accountFormItemLabel {
+    width: 100%;
+    max-width: 520px;
+    font-size: 17px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.95);
+    margin-bottom: 8px;
+}
+
+.accountFormItemInput {
+    width: 100%;
+    max-width: 520px;
+    height: 50px;
+    border: 1px solid rgba(148, 163, 184, 0.18);
+    border-radius: 12px;
+    background: rgba(15, 23, 42, 0.58);
+    color: #f8fafc;
+    padding: 0 14px;
+    outline: none;
+    transition: border-color 0.15s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.accountFormItemInput::placeholder {
+    color: rgba(226, 232, 240, 0.55);
+}
+
+.accountFormItemInput:focus {
+    border-color: rgba(168, 85, 247, 0.6);
+    box-shadow: 0 0 0 3px rgba(168, 85, 247, 0.2);
+    background: rgba(15, 23, 42, 0.68);
+}
+
+.accountFormItemButton {
+    width: 100%;
+    max-width: 520px;
+    height: 46px;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #7c3aed 0%, #9333ea 48%, #a855f7 100%);
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.15s ease, box-shadow 0.2s ease, filter 0.2s ease;
+}
+
+.accountFormItemButton:hover {
+    box-shadow: 0 6px 18px rgba(159, 20, 234, 0.35);
+    transform: translateY(-2px);
+    filter: brightness(1.06);
+}
+
+.accountFormItemButton:active {
+    box-shadow: 0 3px 10px rgba(159, 20, 234, 0.25);
+    transform: translateY(0) scale(0.99);
+}
+
+.accountFormActionRow {
+    width: 100%;
+    max-width: 520px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.accountFormActionRow .accountFormItemButton {
+    max-width: none;
+}
+
+.accountFormItems {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    justify-content: center;
+    align-items: center;
+}
+
+.accountFormItems > .accountFormItemButton {
+    width: auto;
+    min-width: 230px;
+    max-width: none;
+    padding: 0 22px;
+    font-size: 17px;
+}
+
+.accountFormCard {
+    width: 100%;
+    max-width: 620px;
+    padding: 18px 20px 20px;
+    border-radius: 18px;
+    background:
+        radial-gradient(circle at 0% 0%, rgba(168, 85, 247, 0.18), transparent 45%),
+        linear-gradient(145deg, rgba(15, 23, 42, 0.9), rgba(30, 24, 48, 0.9));
+    border: 1px solid rgba(139, 92, 246, 0.25);
+    box-shadow: 0 16px 40px rgba(2, 6, 23, 0.4);
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
